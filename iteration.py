@@ -51,3 +51,7 @@ def max(numbers):
 			current_max = n
 
 	return current_max
+
+
+# homework: writr a function that finds the average of the scores, 
+#write a function that also finds the average, but drops lowest two
