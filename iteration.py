@@ -55,12 +55,16 @@ def max(numbers):
 
 
 def average(numbers):
+	total=0
 	for n in numbers:
+		total +=n
 		average=total/n
-	return newtotal
+	return average
 
 def average_minus(numbers):
+	total=0
 	for n in numbers:
+		total +=n
 		averageminus=total/n -2
 	return averageminus
 

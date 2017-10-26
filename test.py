@@ -14,8 +14,10 @@ from iteration import *
 
 #congratulations(names, scores)
 
-scores = [1, 3, 4, 2, 4]
+scores = [1, 3, 4, 20, 4]
 
 print sum(scores)
 
-print max(scores)
+print average(scores)
+
+print average_minus(scores)
