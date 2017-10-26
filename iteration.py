@@ -53,5 +53,16 @@ def max(numbers):
 	return current_max
 
 
+
+def average(numbers):
+	for n in numbers:
+		average=total/n
+	return newtotal
+
+def average_minus(numbers):
+	for n in numbers:
+		averageminus=total/n -2
+	return averageminus
+
 # homework: writr a function that finds the average of the scores, 
 #write a function that also finds the average, but drops lowest two
