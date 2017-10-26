@@ -56,16 +56,35 @@ def max(numbers):
 
 def average(numbers):
 	total=0
+	count=len(numbers)
 	for n in numbers:
 		total +=n
-		average=total/n
+		average= total/count
 	return average
+
+
 
 def average_minus(numbers):
 	total=0
+	count=len(numbers)
 	for n in numbers:
 		total +=n
-		averageminus=total/n -2
+		average= total/count
+
+
+	current_min = numbers[0]
+	for n in numbers:
+		if n < current_min:
+			current_min = n
+
+	current_min2 = numbers[0]
+	for n in numbers:
+		if n <= current_min:
+			current_min2 = n
+
+	averageminus= total/count- current_min-current_min2
+
+
 	return averageminus
 
 # homework: writr a function that finds the average of the scores, 

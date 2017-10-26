@@ -14,7 +14,7 @@ from iteration import *
 
 #congratulations(names, scores)
 
-scores = [1, 3, 4, 20, 4]
+scores = [5, 3, 4, 20, 4, 2]
 
 print sum(scores)
 
