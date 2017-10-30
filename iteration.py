@@ -83,9 +83,17 @@ def average_minus(numbers):
 			current_min2 = n
 
 	averageminus= total/count- current_min-current_min2
-
-
 	return averageminus
 
-# homework: writr a function that finds the average of the scores, 
-#write a function that also finds the average, but drops lowest two
+
+
+def alternating_sum (numbers):
+	total=0
+	for i in range(0, len (numbers)):
+		if i%2 ==0:
+			total += numbers[i]
+		else:
+			total-= numbers[i]
+	return total
+
+#def sum_outside (numbers):
