@@ -14,6 +14,6 @@ from iteration import *
 
 #congratulations(names, scores)
 
-scores = [5, 3, 4, 20, 4, 2] 
+scores = [5, 3, 4, 20, 4, 2], 4, 10
 
-print alternating_sum(scores)
+print sum_outside(scores)

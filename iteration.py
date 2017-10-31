@@ -90,10 +90,37 @@ def average_minus(numbers):
 def alternating_sum (numbers):
 	total=0
 	for i in range(0, len (numbers)):
-		if i%2 ==0:
+		if i%2==0:
 			total += numbers[i]
 		else:
 			total-= numbers[i]
 	return total
 
-#def sum_outside (numbers):
+
+def sum_outside (numbers):
+	total=0
+	for n in numbers:
+		if not (min <= n and n < max):
+			total +=n
+	return total	
+
+
+def count_close_remainders (numbers):
+	count=0
+	for n in numbers:
+		remainder = n% divisor
+		if remainder <= 1 or remainder == divisor-1:
+			count +=
+
+def double_down(numbers, target):
+	result = [maybe_doubled(numbers[0], numbers[0],target)]
+	for i in range (1, len(numbers)):
+		result.append[maybe_doubled(numbers[0], numbers[0]. target)]	
+	return result
+
+def maybe_doubled(n, prev_n, target):
+		distance=abs(n-target)
+		if n < prev_n or distance <=3:
+			return 2*n
+		return n
+
